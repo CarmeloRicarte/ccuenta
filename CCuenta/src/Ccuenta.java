@@ -5,7 +5,7 @@ public class Ccuenta {
 	    // Atributos de cuenta
 	    private String nombre;
 	    private String cuenta;
-	    private double saldo;
+	    private static double saldo;
 	    private double tipoInteres;
 
 
@@ -17,7 +17,7 @@ public class Ccuenta {
 	        saldo=sal;
 	    }
 
-	    public double getSaldo ()
+	    public static double getSaldo ()
 	    {
 	        return saldo;
 	    }
